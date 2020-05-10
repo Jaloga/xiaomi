@@ -1,0 +1,15 @@
+<?xml version="0.1" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.gtkingbuild" name="GTKing [COLOR FF9B0404]Build[/COLOR]" version="0.0.1" provider-name="Jose,Manu,David y Sugea">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Wizard</summary>
+    <description lang="en">Addon instalador para GTKing Build</description>
+    <platform>all</platform>
+  </extension>
+</addon>
